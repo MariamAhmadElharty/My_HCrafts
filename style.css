@@ -1,0 +1,132 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding-bottom: 100px;
+    background-color: #b2dad6;
+    text-align: center;
+    background-image: url('3db8537bc7cb4e5bf6920ce4727022d0.jpg') ;
+    
+}
+
+header {
+
+width: 100%;            
+height: 45vh;           
+background-image: url('909a7ab4ed42ab73c80329acb93d132e.jpg');
+background-size: cover; 
+background-position: center;
+ margin: 0 auto;    
+ padding-top: 10px;
+ margin-bottom: 30px;
+color: white; 
+}
+
+ header nav ul {
+list-style:circle;
+padding: 0;
+margin:0;
+
+
+}
+header nav ul li
+{
+    width: 20px; 
+    height: 20px;
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block; 
+    margin: 27px; 
+}
+
+header nav ul li a {
+    color:azure;
+    text-decoration: none;
+    text-transform:capitalize;
+    
+}.logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; 
+    transition: transform 0.2s ease-in-out;
+}
+
+
+
+header h1 {
+    font-family: 'great vibes', cursive;
+    font-size:large;
+    font-size: 2.7rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(110, 155, 117);
+}
+
+header p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.action-button {
+    padding: 10px 20px;
+    background-color: #9cd194;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.action-button:hover {
+    background-color: #5b8863;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    padding: 20px;
+}
+
+.feature {
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    font-family:'great vibes', cursive;
+    color: #412c0d;
+    font-size: x-large;
+}
+
+.feature:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+img{
+    width: 350px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.logo:hover {
+    transform: scale(1.1); 
+}
+.image:hover {
+    transform: scale(1.1); 
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    padding: 10px 0;
+}
+.mlogo{
+    width: 100px;
+    height: 95px;
+    border-radius: 50%;   
+}
+
