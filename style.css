@@ -36,6 +36,10 @@ header nav ul li
     display: inline-block; 
     margin: 27px; 
 }
+header nav ul li a {
+    color:azure;
+    text-decoration: none;
+    text-transform:capitalize;
 
     
 }.logo {
